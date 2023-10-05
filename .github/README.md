@@ -47,7 +47,7 @@
 #### Semestrul 2
 
 
-* [Baze de date](https://github.com/ArmynC/ArminC-UTM-Info/tree/main/Anul%202/Semestrul%202/Baze%20de%20date) - **SQL+**
+* [Baze de date](https://github.com/ArmynC/ArminC-UTM-Info/tree/main/Anul%202/Semestrul%202/Baze%20de%20date) - **SQL**
 * [Concepte de afaceri in IT](https://github.com/ArmynC/ArminC-UTM-Info/tree/main/Anul%202/Semestrul%202/Concepte%20de%20afaceri%20in%20IT)
 * [Criptografie](https://github.com/ArmynC/ArminC-UTM-Info/tree/main/Anul%202/Semestrul%202/Criptografie)
 * [Etica profesionala si proprietate intelectuala](https://github.com/ArmynC/ArminC-UTM-Info/tree/main/Anul%202/Semestrul%201/Educatie%20fizica)
