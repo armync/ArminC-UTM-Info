@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="laborator_3" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/laborator_3" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Unit filename="laborator3.h" />
+		<Unit filename="main.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="matrice.in" />
+		<Unit filename="matrice.out" />
+		<Unit filename="problema1.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="problema2.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="problema3.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="problema4.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="problema5.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="problema6.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="problema7.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="problema8.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="problema8.in" />
+		<Unit filename="spirala_comun.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
