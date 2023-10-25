@@ -10,6 +10,7 @@ public class Aplicatia4 extends JFrame
         CheckBoxuri panouCheckBoxuri = new CheckBoxuri();
         ButoaneRadio panouButoaneRadio = new ButoaneRadio();
         ButoaneRadio2 panouButoaneRadio2 = new ButoaneRadio2();
+        ListBox1 panouListe = new ListBox1();
         JPanel panou = new JPanel();
         panou.setLayout(new GridLayout(0, 1));
 //radio
@@ -20,10 +21,12 @@ public class Aplicatia4 extends JFrame
 //aduagare obiecte la panou
         panou.add(panouButoane);
         panou.add(panouCheckBoxuri);
-        panou.add(radioPanou); // Add the radio button panel
+        panou.add(radioPanou);
+        panou.add(panouListe);
 //functii
         app.getContentPane().add(panou);
         app.pack();
+        app.setTitle("Armin Chanchian");
 // app.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         app.setVisible(true);
     }
@@ -107,5 +110,26 @@ class ButoaneRadio2 extends JPanel
         add(butonJos);
         add(butonStanga);
         add(butonDreapta);
+    }
+}
+
+// lista
+class ListBox1 extends JScrollPane {
+    private JList<String> list;
+
+    public JList<String> getList() {
+        return list;
+    }
+
+    public ListBox1() {
+        DefaultListModel<String> listModel = new DefaultListModel<>();
+        listModel.addElement("Randul 1");
+        listModel.addElement("Randul 2");
+        listModel.addElement("Randul 3");
+        list = new JList<>(listModel);
+        list.setVisibleRowCount(3);
+        list.setSelectionMode(ListSelectionModel.SINGLE_SELECTION);
+        list.setSelectedIndex(0);
+        setViewportView(list);
     }
 }
