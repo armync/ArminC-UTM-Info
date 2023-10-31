@@ -68,6 +68,6 @@
 [Open Source Society University](https://github.com/ossu/computer-science)
 
 ##### Licenta
-[CC0 1.0](https://tldrlegal.com/license/creative-commons-cc0-1.0-universal) - daca nu se specifica altfel.
+[CC0 1.0](https://tldrlegal.com/license/creative-commons-cc0-1.0-universal) si Educational Use of Files Only
 
 ###### Multumiri aditionale pentru toti cei care au contribuit indirect cu resursele.

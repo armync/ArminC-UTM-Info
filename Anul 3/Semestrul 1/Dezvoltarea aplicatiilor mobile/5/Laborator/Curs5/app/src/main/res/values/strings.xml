@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Curs5</string>
+    <string name="button_title">Trimite</string>
+    <string name="hint_message">Mesaj</string>
+</resources>

@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">StarBuzzApp</string>
+    <string-array name="categorii">
+        <item>Bauturi</item>
+        <item>Mancare</item>
+        <item>Altele</item>
+    </string-array>
+</resources>
