@@ -68,6 +68,6 @@
 [Open Source Society University](https://github.com/ossu/computer-science)
 
 ##### Licenta
-[CC0 1.0](https://tldrlegal.com/license/creative-commons-cc0-1.0-universal) si Educational Use of Files Only
+[CC0 1.0](https://tldrlegal.com/license/creative-commons-cc0-1.0-universal) si [Educational Use of Files Only](https://github.com/ArmynC/ArminC-UTM-Info/blob/main/LICENSE2)
 
 ###### Multumiri aditionale pentru toti cei care au contribuit indirect cu resursele.
