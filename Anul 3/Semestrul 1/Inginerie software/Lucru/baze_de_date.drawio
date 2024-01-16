@@ -1,0 +1,97 @@
+<mxfile host="Electron" modified="2023-12-06T22:35:27.708Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/22.1.2 Chrome/114.0.5735.289 Electron/25.9.4 Safari/537.36" etag="Pj1hJcFgjOGFOUPMXIBa" version="22.1.2" type="device">
+  <diagram name="Page-1" id="efa7a0a1-bf9b-a30e-e6df-94a7791c09e9">
+    <mxGraphModel dx="989" dy="577" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="19" value="&lt;p style=&quot;margin: 0px; margin-top: 4px; text-align: center; text-decoration: underline;&quot;&gt;&lt;strong&gt;Administrator&lt;/strong&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin: 0px 0px 0px 8px;&quot;&gt;IdUtilizator&amp;nbsp;&lt;i&gt;int&lt;/i&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 8px;&quot;&gt;Nume&amp;nbsp;&lt;i&gt;varchar&lt;/i&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 8px;&quot;&gt;Prenume&amp;nbsp;&lt;i&gt;varchar&lt;/i&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 8px;&quot;&gt;Email&amp;nbsp;&lt;i&gt;varchar&lt;/i&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 8px;&quot;&gt;Parolă&amp;nbsp;&lt;i&gt;varchar&lt;/i&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 8px;&quot;&gt;Rol&amp;nbsp;&lt;i&gt;varchar&lt;/i&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;strokeColor=#003366;shadow=1;fillColor=#D4E1F5;fontColor=#003366" parent="1" vertex="1">
+          <mxGeometry x="360" y="90" width="160" height="128.36" as="geometry" />
+        </mxCell>
+        <mxCell id="20" value="&lt;p style=&quot;margin: 0px; margin-top: 4px; text-align: center; text-decoration: underline;&quot;&gt;&lt;strong&gt;Feedback aplicație&lt;/strong&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin: 0px 0px 0px 8px;&quot;&gt;IdFeedback&amp;nbsp;&lt;i&gt;int&lt;/i&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 8px;&quot;&gt;Utilizator&amp;nbsp;&lt;i&gt;varchar&lt;/i&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 8px;&quot;&gt;DataFeedback&amp;nbsp;&lt;i&gt;date&lt;/i&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 8px;&quot;&gt;Text&amp;nbsp;&lt;i&gt;varchar&lt;/i&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 8px;&quot;&gt;TipFeedback &lt;i&gt;varchar&lt;/i&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;strokeColor=#003366;shadow=1;fillColor=#D4E1F5;fontColor=#003366" parent="1" vertex="1">
+          <mxGeometry x="260" y="438.36" width="160" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="25" value="&lt;p style=&quot;margin: 0px; margin-top: 4px; text-align: center; text-decoration: underline;&quot;&gt;&lt;strong&gt;Utilizator&lt;/strong&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin: 0px; margin-left: 8px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;IdUtilizator &lt;i&gt;int&lt;/i&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px; margin-left: 8px;&quot;&gt;Nume &lt;i&gt;varchar&lt;/i&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px; margin-left: 8px;&quot;&gt;Prenume &lt;i&gt;varchar&lt;/i&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px; margin-left: 8px;&quot;&gt;Email &lt;i&gt;varchar&lt;/i&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px; margin-left: 8px;&quot;&gt;Parolă &lt;i&gt;varchar&lt;/i&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px; margin-left: 8px;&quot;&gt;Rol &lt;i&gt;varchar&lt;/i&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;strokeColor=#003366;shadow=1;fillColor=#D4E1F5;fontColor=#003366" parent="1" vertex="1">
+          <mxGeometry x="60" y="90" width="160" height="128.36" as="geometry" />
+        </mxCell>
+        <mxCell id="90" value="" style="endArrow=open;endSize=12;startArrow=diamondThin;startSize=14;startFill=0;edgeStyle=orthogonalEdgeStyle;entryX=0.066;entryY=-0.018;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" target="Ya2v6KnCpNSU2Z3u6mIv-114" edge="1">
+          <mxGeometry x="620" y="340" as="geometry">
+            <mxPoint x="70" y="218.36" as="sourcePoint" />
+            <mxPoint x="70" y="353.3599999999998" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="91" value="0..n" style="resizable=0;align=left;verticalAlign=top;labelBackgroundColor=#ffffff;fontSize=10;strokeColor=#003366;shadow=1;fillColor=#D4E1F5;fontColor=#003366" parent="90" connectable="0" vertex="1">
+          <mxGeometry x="-1" relative="1" as="geometry">
+            <mxPoint x="10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="92" value="1" style="resizable=0;align=right;verticalAlign=top;labelBackgroundColor=#ffffff;fontSize=10;strokeColor=#003366;shadow=1;fillColor=#D4E1F5;fontColor=#003366" parent="90" connectable="0" vertex="1">
+          <mxGeometry x="1" relative="1" as="geometry">
+            <mxPoint x="20" y="-24.99999999999981" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ya2v6KnCpNSU2Z3u6mIv-114" value="&lt;p style=&quot;margin: 0px; margin-top: 4px; text-align: center; text-decoration: underline;&quot;&gt;&lt;b&gt;Date&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin: 0px; margin-left: 8px;&quot;&gt;Adresa &lt;i&gt;varchar&lt;/i&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px; margin-left: 8px;&quot;&gt;NumărTelefon &lt;i&gt;int&lt;/i&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px; margin-left: 8px;&quot;&gt;CNP &lt;i&gt;int&lt;/i&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px; margin-left: 8px;&quot;&gt;Țara &lt;i&gt;varchar&lt;/i&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px; margin-left: 8px;&quot;&gt;Județ &lt;i&gt;varchar&lt;/i&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px; margin-left: 8px;&quot;&gt;Localitate &lt;i&gt;varchar&lt;/i&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px; margin-left: 8px;&quot;&gt;Descriere &lt;i&gt;varchar&lt;/i&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px; margin-left: 8px;&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;strokeColor=#003366;shadow=1;fillColor=#D4E1F5;fontColor=#003366" vertex="1" parent="1">
+          <mxGeometry x="60" y="358.36" width="160" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="Ya2v6KnCpNSU2Z3u6mIv-118" value="" style="endArrow=none;edgeStyle=orthogonalEdgeStyle;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="19">
+          <mxGeometry x="190" y="950" as="geometry">
+            <mxPoint x="220" y="153.84" as="sourcePoint" />
+            <mxPoint x="370" y="153.84" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ya2v6KnCpNSU2Z3u6mIv-121" value="" style="endArrow=diamondThin;endSize=12;startArrow=diamondThin;startSize=14;startFill=0;edgeStyle=elbowEdgeStyle;entryX=0.417;entryY=-0.01;entryDx=0;entryDy=0;entryPerimeter=0;elbow=vertical;endFill=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="25" target="20">
+          <mxGeometry x="620" y="340" as="geometry">
+            <mxPoint x="210" y="218.36" as="sourcePoint" />
+            <mxPoint x="211" y="354.36" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="160" y="270" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ya2v6KnCpNSU2Z3u6mIv-122" value="0..n" style="resizable=0;align=left;verticalAlign=top;labelBackgroundColor=#ffffff;fontSize=10;strokeColor=#003366;shadow=1;fillColor=#D4E1F5;fontColor=#003366" connectable="0" vertex="1" parent="Ya2v6KnCpNSU2Z3u6mIv-121">
+          <mxGeometry x="-1" relative="1" as="geometry">
+            <mxPoint x="10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ya2v6KnCpNSU2Z3u6mIv-124" value="0..n" style="resizable=0;align=left;verticalAlign=top;labelBackgroundColor=#ffffff;fontSize=10;strokeColor=#003366;shadow=1;fillColor=#D4E1F5;fontColor=#003366" connectable="0" vertex="1" parent="1">
+          <mxGeometry x="340" y="328.36" as="geometry" />
+        </mxCell>
+        <mxCell id="Ya2v6KnCpNSU2Z3u6mIv-125" value="&lt;p style=&quot;margin: 0px; margin-top: 4px; text-align: center; text-decoration: underline;&quot;&gt;&lt;strong&gt;Statistici&lt;/strong&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin: 0px 0px 0px 8px;&quot;&gt;DatăStatistici &lt;i&gt;date&lt;/i&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 8px;&quot;&gt;NumărUtilizatori&amp;nbsp;&lt;i&gt;int&lt;/i&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 8px;&quot;&gt;NumărSesizări&amp;nbsp;&lt;i&gt;int&lt;/i&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 8px;&quot;&gt;VariațieSesizări&amp;nbsp;&lt;i&gt;int&lt;/i&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 8px;&quot;&gt;NumărFeedback&amp;nbsp;&lt;i&gt;int&lt;/i&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;strokeColor=#003366;shadow=1;fillColor=#D4E1F5;fontColor=#003366" vertex="1" parent="1">
+          <mxGeometry x="550" y="300" width="160" height="115.82" as="geometry" />
+        </mxCell>
+        <mxCell id="Ya2v6KnCpNSU2Z3u6mIv-129" value="" style="endArrow=diamondThin;endSize=12;startArrow=open;startSize=14;startFill=0;edgeStyle=orthogonalEdgeStyle;entryX=0;entryY=0.25;entryDx=0;entryDy=0;endFill=0;" edge="1" parent="1" target="Ya2v6KnCpNSU2Z3u6mIv-125">
+          <mxGeometry x="620" y="340" as="geometry">
+            <mxPoint x="200" y="218.36" as="sourcePoint" />
+            <mxPoint x="201" y="355" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="200" y="250" />
+              <mxPoint x="400" y="250" />
+              <mxPoint x="400" y="329" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ya2v6KnCpNSU2Z3u6mIv-130" value="1" style="resizable=0;align=left;verticalAlign=top;labelBackgroundColor=#ffffff;fontSize=10;strokeColor=#003366;shadow=1;fillColor=#D4E1F5;fontColor=#003366" connectable="0" vertex="1" parent="Ya2v6KnCpNSU2Z3u6mIv-129">
+          <mxGeometry x="-1" relative="1" as="geometry">
+            <mxPoint x="10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ya2v6KnCpNSU2Z3u6mIv-131" value="0..n" style="resizable=0;align=right;verticalAlign=top;labelBackgroundColor=#ffffff;fontSize=10;strokeColor=#003366;shadow=1;fillColor=#D4E1F5;fontColor=#003366" connectable="0" vertex="1" parent="Ya2v6KnCpNSU2Z3u6mIv-129">
+          <mxGeometry x="1" relative="1" as="geometry">
+            <mxPoint x="-10" y="-25" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ya2v6KnCpNSU2Z3u6mIv-132" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.308;exitY=-0.022;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1.021;entryY=0.563;entryDx=0;entryDy=0;entryPerimeter=0;edgeStyle=elbowEdgeStyle;elbow=vertical;dashed=1;dashPattern=12 12;" edge="1" parent="1" source="Ya2v6KnCpNSU2Z3u6mIv-125" target="19">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="550" y="270" as="sourcePoint" />
+            <mxPoint x="600" y="220" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="590" y="163" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ya2v6KnCpNSU2Z3u6mIv-133" value="utilizează" style="resizable=0;align=right;verticalAlign=top;labelBackgroundColor=#ffffff;fontSize=10;strokeColor=#003366;shadow=1;fillColor=#D4E1F5;fontColor=#003366" connectable="0" vertex="1" parent="1">
+          <mxGeometry x="650.0041123647349" y="230.00497476048832" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

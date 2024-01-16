@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "1056905641626",
+    "firebase_url": "https://fir-database-428aa-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "fir-database-428aa",
+    "storage_bucket": "fir-database-428aa.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1056905641626:android:ab9506655fbaf681ec6923",
+        "android_client_info": {
+          "package_name": "com.example.firebasedatabaseapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCkFE_2WgOcFbSp5IJZy2__ZPcdGNmcBuA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

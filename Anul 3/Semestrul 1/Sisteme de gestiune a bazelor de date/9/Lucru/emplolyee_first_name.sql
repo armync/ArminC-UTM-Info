@@ -1,0 +1,10 @@
+SET SERVEROUTPUT ON;
+DECLARE
+v_fname VARCHAR2(20);
+BEGIN
+SELECT FIRST_NAME INTO v_fname
+FROM EMPLOYEES
+WHERE EMPLOYEE_ID = 100;
+DBMS_OUTPUT.PUT_LINE('The first name of the employee is '||v_fname);
+END;
+/

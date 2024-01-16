@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">WeatherApp</string>
+
+    <string name="city_bucharest">Bucharest</string>
+    <string name="city_timisoara">Timisoara</string>
+    <string name="city_cluj_napoca">Cluj Napoca</string>
+    <string name="city_oradea">Oradea</string>
+    <string name="city_constanta">Constanta</string>
+    <string name="city_iasi">Iasi</string>
+
+    <string name="loading_message">Loading</string>
+    <string name="error_message">Failed to fetch weather data.</string>
+
+    <string name="weather_details_format">Date: %1$s\nTemperature: %2$.2f°C\nHumidity: %3$.2f%%\nWind Speed: %4$.2f m/s\nCloud Cover: %5$.2f%%\nPrecipitation Probability: %6$.2f%%\nSnow Intensity: %7$.2f</string>
+
+</resources>
