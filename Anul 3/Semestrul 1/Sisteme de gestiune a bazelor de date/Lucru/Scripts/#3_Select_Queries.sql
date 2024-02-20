@@ -63,16 +63,6 @@ GROUP BY e.employee_id;
 SELECT MAX(sale_price) AS max_sale_price, MIN(sale_price) AS min_sale_price
 FROM Sales;
 
--- Character Functions
-
-// Return the first 3 characters from the manufacturers name
-SELECT SUBSTR(manufacturer_name, 1, 3) AS first_three_chars FROM Manufacturers;
-
-// Concatenation of customers first and last name
-SELECT first_name || ' ' || last_name AS full_name FROM Customers;
-
--- Date and Time Functions
-
 // Return cars sold in 2023
 SELECT * FROM Sales WHERE EXTRACT(YEAR FROM sale_date) = 2023;
 
@@ -82,6 +72,22 @@ FROM Sales
 WHERE EXTRACT(YEAR FROM sale_date) = 2023
 GROUP BY EXTRACT(MONTH FROM sale_date)
 ORDER BY sales_month;
+
+-- Character Functions
+
+// Return the first 3 characters from the manufacturers name
+SELECT SUBSTR(manufacturer_name, 1, 3) AS first_three_chars FROM Manufacturers;
+
+// Concatenation of customers first and last name
+SELECT first_name || ' ' || last_name AS full_name FROM Customers;
+
+-- Date and time Functions
+// Conversion the employee hire date from DATE type to a char string
+SELECT
+    hire_date AS original_date,
+    TO_CHAR(hire_date, 'DD-MON-YYYY HH:MI:SS AM') AS formatted_date
+FROM
+    Employees;
 
 // Calculate the employees years passed since date of employment
 SELECT first_name, last_name, hire_date, (SYSDATE - hire_date)/365 AS years_hired
@@ -158,7 +164,6 @@ UNION
 SELECT first_name, last_name FROM Employees
 INTERSECT
 SELECT first_name, last_name FROM Customers;
-
 
 // Find registered customers who never made a purchase
 SELECT first_name, last_name FROM Customers

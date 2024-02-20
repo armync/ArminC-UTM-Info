@@ -46,7 +46,6 @@
 
 #### Semestrul 2
 
-
 * [Baze de date](https://github.com/ArmynC/ArminC-UTM-Info/tree/main/Anul%202/Semestrul%202/Baze%20de%20date) - **SQL**
 * [Concepte de afaceri in IT](https://github.com/ArmynC/ArminC-UTM-Info/tree/main/Anul%202/Semestrul%202/Concepte%20de%20afaceri%20in%20IT)
 * [Criptografie](https://github.com/ArmynC/ArminC-UTM-Info/tree/main/Anul%202/Semestrul%202/Criptografie)
@@ -61,6 +60,16 @@
 
 #### Semestrul I
 
+* [Dezvoltarea aplicatiilor mobile](https://github.com/ArmynC/ArminC-UTM-Info/tree/main/Anul%203/Semestrul%201/Dezvoltarea%20aplicatiilor%20mobile)  - **Java**
+* [Inginerie software](https://github.com/ArmynC/ArminC-UTM-Info/tree/main/Anul%203/Semestrul%201/Inginerie%20software) - **UML**
+* [Inteligenta artificiala](https://github.com/ArmynC/ArminC-UTM-Info/tree/main/Anul%203/Semestrul%201/Inteligenta%20artificiala)
+* [Modelare si simulare](https://github.com/ArmynC/ArminC-UTM-Info/tree/main/Anul%203/Semestrul%201/Modelare%20si%20simulare) - **Logo! Soft Comfort**
+* [Proiectarea interfetelor utilizator](https://github.com/ArmynC/ArminC-UTM-Info/tree/main/Anul%203/Semestrul%201/Proiectarea%20interfetelor%20utilizator) - **Java Swing, Java AWT, Java FX, C#**
+* [Retele de calculatoare](https://github.com/ArmynC/ArminC-UTM-Info/tree/main/Anul%203/Semestrul%201/Retele%20de%20calculatoare) - **Cisco Packet Tracer**
+* [Sisteme de gestiune a bazelor de date](https://github.com/ArmynC/ArminC-UTM-Info/tree/main/Anul%202/Semestrul%202/Tehnologii%20Web) - **SQL/PL-SQL**
+
+#### Semestrul II
+
 
 ##### Suplimentar
 [Universitatea Bucuresti](https://github.com/DLarisa/FMI-Materials-BachelorDegree-UniBuc)
@@ -70,4 +79,4 @@
 ##### Licenta
 [CC0 1.0](https://tldrlegal.com/license/creative-commons-cc0-1.0-universal) si [Educational Use of Files Only](https://github.com/ArmynC/ArminC-UTM-Info/blob/main/LICENSE2)
 
-###### Multumiri aditionale pentru toti cei care au contribuit indirect cu resursele.
+###### Multumiri aditionale tuturor celor care au contribuit indirect cu resursele.

@@ -1,6 +1,6 @@
 /* 
     Oracle SQL - PL/SQL
-    Car dealership @ The future is in the past
+    Car dealership
 */
 
 /* 1. Data Definition Language */
