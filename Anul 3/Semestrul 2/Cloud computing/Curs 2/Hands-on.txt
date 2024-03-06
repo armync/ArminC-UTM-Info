@@ -1,0 +1,2 @@
+1. Create object storage buckets
+2. Remotely Run Commands on an EC2 Instance with AWS Systems Manager

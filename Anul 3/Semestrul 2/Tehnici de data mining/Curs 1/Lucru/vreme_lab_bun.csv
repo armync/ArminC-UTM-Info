@@ -1,0 +1,15 @@
+Outlook,Temp,Humidity,Windy,Play
+sunny,hot,high,F,N
+sunny,hot,high,T,N
+overcast,hot,high,F,Y
+rain,mild,high,F,Y
+rain,cool,normal,F,Y
+rain,cool,normal,T,N
+overcast,cool,normal,T,Y
+sunny,mild,high,F,N
+sunny,cool,normal,F,Y
+rain,mild,normal,F,Y
+sunny,mild,normal,T,Y
+overcast,mild,high,T,Y
+overcast,hot,normal,F,Y
+rain,mild,high,T,N
