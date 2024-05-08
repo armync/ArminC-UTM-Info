@@ -1,0 +1,97 @@
+#include <AccelStepper.h>
+#include <Wire.h>
+#include <LiquidCrystal_I2C.h>
+
+#define STEP_PIN 2
+#define DIR_PIN 3
+#define POTENTIOMETER_PIN A0
+#define POTENTIOMETER_PIN2 A1
+#define STEPS_PER_REVOLUTION 200
+
+AccelStepper stepper(AccelStepper::FULL4WIRE, STEP_PIN, DIR_PIN);
+LiquidCrystal_I2C lcd(0x27, 16, 2);
+
+const int maxSpeed = 1000;
+const int acceleration = 50;
+float stepperSpeed1;
+float stepperSpeed2;
+float speed1;
+float speed2;
+float error;
+float T = 1;
+float t = 0.5;
+float K_p = 1;
+float K_d = 1;
+float K_i = 1;
+float p_n;
+float i_n;
+float d_n;
+float ip_n = 0;
+float dp_n = 0;
+float previousError = 0;
+float result;
+
+void setup()
+{
+    Serial.begin(9600);
+    stepper.setMaxSpeed(maxSpeed);
+    stepper.setAcceleration(acceleration);
+    lcd.init();
+    lcd.backlight();
+}
+void loop()
+{
+    stepperSpeed1 = analogRead(POTENTIOMETER_PIN);
+    stepperSpeed2 = analogRead(POTENTIOMETER_PIN2);
+    speed1 = map(stepperSpeed1, 0, 1023, 0, 180);
+    speed2 = map(stepperSpeed2, 0, 1023, 0, 180);
+
+    if (speed2 >= speed1 && speed2 <= (speed1 + 20) || speed2 <= speed1 && speed2 >= (speed1 - 20))
+    {
+        error = 0;
+    }
+    if (speed2 == speed1)
+    {
+        error = 0;
+    }
+    else
+    {
+        error = speed1 - speed2;
+    }
+
+    p_n = K_p * error;
+    i_n = ((K_i * T) / 2) * (error + previousError) + ip_n;
+    d_n = ((2 * K_d) / (2 * t + T)) * (error - previousError) + ((2 * t - T) / (2 * t + T)) * dp_n;
+    result = p_n + i_n + d_n;
+
+    Serial.print("p_n = ");
+    Serial.println(p_n);
+    Serial.print("i_n = ");
+    Serial.println(i_n);
+    Serial.print("d_n = ");
+    Serial.println(d_n);
+    Serial.println();
+
+    ip_n = i_n;
+    dp_n = d_n;
+    previousError = error;
+
+    lcd.setCursor(0, 0);
+    lcd.print("Pot Value 1: ");
+    lcd.print(speed1);
+    lcd.setCursor(0, 1);
+    lcd.print("Pot Value 2: ");
+    lcd.print(speed2);
+    lcd.setCursor(0, 2);
+    lcd.print("Error: ");
+    lcd.print(error);
+    lcd.setCursor(20, 3);
+    lcd.print("Result: ");
+    lcd.print(result);
+
+    delay(1000);
+    
+    stepper.setAcceleration(500);
+    stepper.moveTo(result);
+    stepper.run();
+}
