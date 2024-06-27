@@ -69,12 +69,20 @@
 * [Sisteme de gestiune a bazelor de date](https://github.com/ArmynC/ArminC-UTM-Info/tree/main/Anul%202/Semestrul%202/Tehnologii%20Web) - **SQL/PL-SQL**
 
 #### Semestrul II
-
+* [Administrarea retelelor de calculatoare](https://github.com/ArmynC/ArminC-UTM-Info/tree/main/Anul%203/Semestrul%202/Administrarea%20retelelor%20de%20calculatoare)  - **Docker, EVE-ng, Mikrotik CHR**
+* [Cloud computing](https://github.com/ArmynC/ArminC-UTM-Info/tree/main/Anul%203/Semestrul%202/Cloud%20computing) - **Amazon AWS Cloud**
+* [Comert electronic](https://github.com/ArmynC/ArminC-UTM-Info/tree/main/Anul%203/Semestrul%202/Comert%20electronic) - **Wordpress, WooCommerce**
+* [Interfete om-calculator si robotica](https://github.com/ArmynC/ArminC-UTM-Info/tree/main/Anul%203/Semestrul%202/Interfete%20om-calculator%20si%20robotica) - **Wokwi, Arduino**
+* [Limbaje formale, automate si calculabilitate](https://github.com/ArmynC/ArminC-UTM-Info/tree/main/Anul%203/Semestrul%202/Limbaje%20formale%2C%20automate%20si%20calculabilitate) - **Logica, mate**
+* [Securitatea sistemelor informatice](https://github.com/ArmynC/ArminC-UTM-Info/tree/main/Anul%203/Semestrul%202/Securitatea%20sistemelor%20informatice) - **DVWA, Nessus, CVSS, Rapid7 Nexpose, Claroty, Splunk, WALLIX, **
+* [Tehnici de data mining](https://github.com/ArmynC/ArminC-UTM-Info/tree/main/Anul%203/Semestrul%202/Tehnici%20de%20data%20mining) - **Azure Machine Learning**
 
 ##### Suplimentar
 [Universitatea Bucuresti](https://github.com/DLarisa/FMI-Materials-BachelorDegree-UniBuc)
 
 [Open Source Society University](https://github.com/ossu/computer-science)
+
+[Ghid licenta]()
 
 ##### Licenta
 [CC0 1.0](https://tldrlegal.com/license/creative-commons-cc0-1.0-universal) si [Educational Use of Files Only](https://github.com/ArmynC/ArminC-UTM-Info/blob/main/LICENSE2)
