@@ -74,7 +74,7 @@
 * [Comert electronic](https://github.com/ArmynC/ArminC-UTM-Info/tree/main/Anul%203/Semestrul%202/Comert%20electronic) - **Wordpress, WooCommerce**
 * [Interfete om-calculator si robotica](https://github.com/ArmynC/ArminC-UTM-Info/tree/main/Anul%203/Semestrul%202/Interfete%20om-calculator%20si%20robotica) - **Wokwi, Arduino**
 * [Limbaje formale, automate si calculabilitate](https://github.com/ArmynC/ArminC-UTM-Info/tree/main/Anul%203/Semestrul%202/Limbaje%20formale%2C%20automate%20si%20calculabilitate) - **Logica, mate**
-* [Securitatea sistemelor informatice](https://github.com/ArmynC/ArminC-UTM-Info/tree/main/Anul%203/Semestrul%202/Securitatea%20sistemelor%20informatice) - **DVWA, Nessus, CVSS, Rapid7 Nexpose, Claroty, Splunk, WALLIX, **
+* [Securitatea sistemelor informatice](https://github.com/ArmynC/ArminC-UTM-Info/tree/main/Anul%203/Semestrul%202/Securitatea%20sistemelor%20informatice) - **DVWA, Nessus, CVSS, Rapid7 Nexpose, Claroty, Splunk, WALLIX**
 * [Tehnici de data mining](https://github.com/ArmynC/ArminC-UTM-Info/tree/main/Anul%203/Semestrul%202/Tehnici%20de%20data%20mining) - **Azure Machine Learning**
 
 ##### Suplimentar
@@ -82,7 +82,7 @@
 
 [Open Source Society University](https://github.com/ossu/computer-science)
 
-[Ghid licenta]()
+[Sablon licenta](https://github.com/ArmynC/ArminC-UTM-Info/tree/main/Anul%203/licenta_suplimentar)
 
 ##### Licenta
 [CC0 1.0](https://tldrlegal.com/license/creative-commons-cc0-1.0-universal) si [Educational Use of Files Only](https://github.com/ArmynC/ArminC-UTM-Info/blob/main/LICENSE2)
