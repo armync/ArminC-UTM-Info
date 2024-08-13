@@ -28,6 +28,7 @@
 * [Educatie fizica](https://github.com/ArmynC/ArminC-UTM-Info/tree/main/Anul%201/Semestrul%20II/Educatie%20fizica)
 * [Fundamentele algebrice ale informaticii](https://github.com/ArmynC/ArminC-UTM-Info/tree/main/Anul%201/Semestrul%20II/Fundamentele%20algebrice%20ale%20informaticii) - **C/mate**
 * [Programare procedurala](https://github.com/ArmynC/ArminC-UTM-Info/tree/main/Anul%201/Semestrul%20II/Programare%20procedurala) - **C**
+* [Programare in Python](https://github.com/RockyDesigne/ArminC-UTM-Info-H/tree/main/Anul%201/Semestrul%20II/Programare%20in%20Python) - **Python**
 * [Redactare si comunicarea stiintifica profesionala](https://github.com/ArmynC/ArminC-UTM-Info/tree/main/Anul%201/Semestrul%20II/Redactare%20si%20comunicarea%20stiintifica%20profesionala)
 
 **Anul 2**
