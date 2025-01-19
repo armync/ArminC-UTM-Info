@@ -1,6 +1,0 @@
-Popescu Ion,100,10087,8.90
-Bogdan Ana,100,10088,6.7
-Papuc Andrei,101,10189,5.1
-Pop Ion,102,10290,10.0
-Banica Marcu,101,10191,9.8
-Pop Elena,100,10092,6.9

@@ -1,3 +1,0 @@
-# containers
-
-Various STL containers.
