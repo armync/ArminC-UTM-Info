@@ -1,30 +1,19 @@
-package aplicatii;
-
-import java.util.Arrays;
-import java.util.Scanner;
+package surse;
 
 public class Test {
     public static void main(String[] args) {
-        Scanner input = new Scanner(System.in);
+        AngajatBestIT []ang = new AngajatBestIT[3];
 
-        System.out.print("n = ");
-        int n = input.nextInt();
+        ang[0] = new AngajatBestIT("Popescu Ioan", "Programator C++",
+                23, 5000.50);
+        ang[1] = new AngajatBestIT("Popa Ana", "Programator Python",
+                27, 6000.50);
+        ang[2] = new AngajatBestIT("Mihai George", "Programator Java",
+                21, 4000.50);
 
-        int a[][] = new int[n][];
-
-        for(int i = 0; i < n; i++)
-        {
-            a[i] = new int[i+1];
-            for(int j = 0; j <= i; j++)
-                a[i][j] = j+1;
-        }
-
-//        System.out.println(Arrays.deepToString(a));
-        for(var linie : a) {
-            for (var elem : linie)
-                System.out.print(elem + " ");
-            System.out.println();
-        }
-
+        System.out.println("Angajatii din internship:");
+        for(int i = 0; i < ang.length; i++)
+            if(ang[i].getVarsta() <= 25)
+                System.out.println(ang[i]);
     }
 }

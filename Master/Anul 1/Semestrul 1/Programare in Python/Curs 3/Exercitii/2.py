@@ -1,0 +1,5 @@
+sir = input("Introduceti un sir: ")
+cuvinte = sir.split()
+print(cuvinte)
+acronim = "".join(cuvant[0].upper() for cuvant in cuvinte)
+print(acronim)
