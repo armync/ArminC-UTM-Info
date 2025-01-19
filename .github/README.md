@@ -79,7 +79,6 @@
 * [Tehnici de data mining](https://github.com/armync/ArminC-UTM-Info/tree/main/Anul%203/Semestrul%202/Tehnici%20de%20data%20mining) - **Azure Machine Learning**
 
 ##### [Master](https://github.com/armync/ArminC-UTM-Info/tree/main/Master/)
-
 —
 
 ##### Suplimentar
