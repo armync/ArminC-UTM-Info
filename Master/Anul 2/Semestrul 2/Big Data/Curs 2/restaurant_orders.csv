@@ -1,0 +1,11 @@
+Order ID,Order Date,Food Category,Item Name,Quantity,Amount
+1,2024-01-01,Pizza,Margherita,2,25.00
+2,2024-01-01,Drinks,Coke,3,9.00
+3,2024-01-02,Burger,Cheeseburger,1,12.50
+4,2024-01-02,Pizza,Pepperoni,1,14.00
+5,2024-01-03,Dessert,Chocolate Cake,2,16.00
+6,2024-01-03,Drinks,Beer,4,20.00
+7,2024-01-04,Burger,Veggie Burger,2,22.00
+8,2024-01-04,Pizza,Margherita,3,37.50
+9,2024-01-05,Dessert,Ice Cream,3,12.00
+10,2024-01-05,Drinks,Water,5,7.50
