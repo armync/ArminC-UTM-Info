@@ -1,0 +1,13 @@
+https://www.cvedetails.com/vulnerability-list/vendor_id-10210/product_id-18230/Python-Python.html
+
+https://www.aquasec.com/cloud-native-academy/application-security/python-security/
+
+https://go.snyk.io/rs/677-THP-415/images/Python%20Insight%20Report.pdf
+
+https://bugs.python.org/issue43882
+https://security.snyk.io/vuln/SNYK-PYTHON-NLTK-5926698
+
+https://monkeylearn.com/blog/text-cleaning/
+
+https://www.quora.com/How-does-ChatGPT-process-and-understand-language
+https://www.educative.io/answers/how-to-sanitize-user-input-in-python
